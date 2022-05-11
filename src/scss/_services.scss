@@ -1,11 +1,80 @@
- /* ============= MEDIA QUERIES (MEDIUM) ============ */
+.services__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
 
- @media screen and (max-width: 1024px){
-    
+    .service {
+        background: $lavender-drk-ol;
+        border-radius: 0 0 2rem 2rem;
+        border: 1px solid $lavender;
+        height: fit-content;
+        transition: $hover-state;
+
+        &:hover{
+            background: transparent;
+            border-color: $lavender-drk;
+        }
+
+        .service__head {
+            background-color: $lavender;
+            padding: 2rem;
+            border-radius: 0 0 2rem 2rem;
+            box-shadow: 0 2rem 1rem rgba(0, 0, 0, 0.1);
+
+            h3 {
+                color: $dk-blue;
+                font-size: 1rem;
+                text-align: center;
+            }
+        }
+
+        .service__list {
+            padding: 2rem;
+
+            .service__item {
+                display: flex;
+                gap: 1rem;
+                margin-bottom: 0.8rem;
+
+            }
+
+            .service__icon {
+                color: $light-blue;
+                font-size: 4rem;
+                margin-top: -1rem;
+            }
+
+            p {
+                font-size: 0.9rem;
+                color: $light-gray;
+            }
+        }
+
+    }
+} 
+
+
+
+/* ============= MEDIA QUERIES (MEDIUM) ============ */
+
+@media screen and (max-width: 1024px){
+    .services__container {
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+        
+
+        .service {
+            height: auto;
+        }
+    }
 }
 
 /* ============= MEDIA QUERIES (SMALL) ============ */
 
 @media screen and (max-width: 600px){
+    .services__container {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
     
 }
