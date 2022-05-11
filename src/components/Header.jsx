@@ -8,7 +8,7 @@ export default function Header() {
     
 
     return (
-        <header>
+        <header id="home">
             <div className="container header__container">
                 <h5>Hello I'm</h5>
                 <h1>Jennifer Johnston</h1>

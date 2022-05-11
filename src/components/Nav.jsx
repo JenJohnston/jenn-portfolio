@@ -12,7 +12,7 @@ export default function Nav() {
 
     return (
         <nav className='nav__bar'>
-            <a href="#" onClick={() => setActiveNav('#')} className={activeNav === '#' ? 'active' : ''}><BiHomeAlt className='nav__icon'/></a>
+            <a href="#home" onClick={() => setActiveNav('#')} className={activeNav === '#' ? 'active' : ''}><BiHomeAlt className='nav__icon'/></a>
             <a href="#about" onClick={() => setActiveNav('#about')} className={activeNav === '#about' ? 'active' : ''}><BiUserCircle className='nav__icon'/></a>
             <a href="#experience" onClick={() => setActiveNav('#experience')} className={activeNav === '#experience' ? 'active' : ''}><BiBook className='nav__icon'/></a>
             <a href="#portfolio" onClick={() => setActiveNav('#portfolio')} className={activeNav === '#portfolio' ? 'active' : ''}><RiSuitcaseLine className='nav__icon'/></a>
