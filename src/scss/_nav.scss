@@ -1,0 +1,42 @@
+.nav__bar {
+    background: rgba(0, 0, 0, 0.3);;
+    backdrop-filter: blur(15px);
+    width: max-content;
+    display: block;
+    padding: 0.7rem 1.7rem;
+    z-index: 2;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 2rem;
+    display: flex;
+    gap: 1rem;
+    border-radius: 3rem;
+
+    a {
+
+        background: transparent;
+        padding: 0.8rem;
+        border-radius: 50%;
+        border: 1px solid transparent;
+        display: flex;
+        transition: $hover-state;
+        color: $light-gray;
+        font-size: 1.2em;
+
+        &:hover {
+            color: $orange;
+            background: rgba(0, 0, 0, 0.4);
+            border-color: $orange;
+        }
+
+        
+    }
+
+    a.active {
+        background: rgba(0, 0, 0, 0.4);
+        color: $light-blue;
+        border-color: $light-blue;
+    }
+
+}
