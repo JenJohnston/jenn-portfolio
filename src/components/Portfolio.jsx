@@ -17,8 +17,8 @@ export default function Portfolio() {
 
                     </div>
                     <h3>Portfolio Item Title</h3>
-                    <a href="https://github.com/JenJohnston" className='btn-std' target="_blank">Github</a>
-                    <a href="https://magic-portal-demo.netlify.app/" className='btn-primary' target="_blank">Live Demo</a>
+                    <a href="https://github.com/JenJohnston" className='btn-std' >Github</a>
+                    <a href="https://magic-portal-demo.netlify.app/" className='btn-primary' >Live Demo</a>
                 </article>
             </div>
         </section>
