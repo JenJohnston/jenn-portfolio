@@ -14,7 +14,7 @@ export default function Portfolio() {
                 {
                     portfolioData.map(({id, image, title, github, livedemo}) => {
                         return (
-                            <article className="portfolio__item">
+                            <article className="portfolio__item" key={id}>
                                 <div className="portfolio__img">
                                     <img src={image} alt={title} />
                                 </div>
