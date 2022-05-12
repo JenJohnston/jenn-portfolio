@@ -7,7 +7,7 @@ export default function Contact() {
     
     const email = 'mailto:jen.johnston@protonmail.ch'
     const messenger = 'https://m.me/jennifer.johnston.96558061'
-    const whatsApp = 'https://api.whatsapp.com/send?phone+17802314506'
+    const whatsApp = 'https://api.whatsapp.com/send?phone=+17802314506'
 
     return (
         <section id="contact">
@@ -37,7 +37,7 @@ export default function Contact() {
                     </article>
                 </div>
                 <form action="POST">
-
+                    <input type="text" name="name"/>
                 </form>
             </div>
         </section>
