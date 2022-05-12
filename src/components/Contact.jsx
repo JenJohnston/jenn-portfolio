@@ -36,7 +36,7 @@ export default function Contact() {
                         <a href={whatsApp} target="_blank" rel="noopener noreferrer">Send a Message</a>
                     </article>
                 </div>
-                <form method="POST" name="contact-form" action="mailto:jen.johnston@protonmail.ch" >
+                <form method="POST" name="contact-form" >
                     <input type="hidden" name="form-name" value="contact-form" />
                     <input type="text" name="name" placeholder='your full name' required/>
                     <input type="email" name="email" placeholder='your email' required/>
