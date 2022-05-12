@@ -37,7 +37,7 @@ export default function Contact() {
                     </article>
                 </div>
                 <form action="POST" name="contact-form" data-netlify="true" netlify>
-                <input type="hidden" name="form-name" value="contact-form"/>
+                    <input type="hidden" name="contact-form" value="contact-form"/>
                     <input type="text" name="name" placeholder='your full name' required/>
                     <input type="email" name="email" placeholder='your email' required/>
                     <textarea name="message" rows="7" placeholder='Your Message' required></textarea>
