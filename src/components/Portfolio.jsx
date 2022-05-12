@@ -20,8 +20,8 @@ export default function Portfolio() {
                                 </div>
                                 <h3>{title}</h3>
                                 <div className="portfolio__cta">
-                                    <a href={github} className='btn-std' >Github</a>
-                                    <a href={livedemo} className='btn-primary'>Live Demo</a>
+                                    <a href={github} className='btn-std' target="_blank" rel="noopener noreferrer">Github</a>
+                                    <a href={livedemo} className='btn-primary' target="_blank" rel="noopener noreferrer">Live Demo</a>
                                 </div>
                             </article>
                         )
