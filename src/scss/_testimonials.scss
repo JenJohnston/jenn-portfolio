@@ -1,5 +1,6 @@
  .testimonials__container {
      width: 40%;
+     padding-bottom: 4rem;
 
      .testimonial {
 
@@ -24,9 +25,15 @@
             display: block;
             width: 80%;
             margin: 0.8rem auto 0;
+            padding-bottom: 2rem;
         }
 
      }
+ }
+
+ .swiper-pagination-clickable .swiper-pagination-bullet{
+     background: $light-blue;
+
  }
  
  /* ============= MEDIA QUERIES (MEDIUM) ============ */
