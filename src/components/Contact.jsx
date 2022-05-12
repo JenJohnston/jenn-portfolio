@@ -36,7 +36,7 @@ export default function Contact() {
                         <a href={whatsApp} target="_blank" rel="noopener noreferrer">Send a Message</a>
                     </article>
                 </div>
-                <form action="POST">
+                <form action="POST" name="contact-form" data-netlify="true">
                     <input type="text" name="name" placeholder='your full name' required/>
                     <input type="email" name="email" placeholder='your email' required/>
                     <textarea name="message" rows="7" placeholder='Your Message' required></textarea>
