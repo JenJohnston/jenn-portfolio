@@ -18,26 +18,29 @@ export default function Contact() {
             <div className="container contact__container">
                 <div className="contact__options">
                     <article className="contact__option">
-                        <HiOutlineMail/>
+                        <HiOutlineMail className='contact__icon'/>
                         <h4>Email</h4>
                         <h5>jen.johnston@protonmail.ch</h5>
                         <a href={email} target="_blank" rel="noopener noreferrer">Send a Message</a>
                     </article>
                     <article className="contact__option">
-                        <RiMessengerLine/>
+                        <RiMessengerLine className='contact__icon'/>
                         <h4>Messenger</h4>
                         <h5>Jennifer Johnston</h5>
                         <a href={messenger} target="_blank" rel="noopener noreferrer">Send a Message</a>
                     </article>
                     <article className="contact__option">
-                        <RiWhatsappLine/>
+                        <RiWhatsappLine className='contact__icon'/>
                         <h4>WhatsApp</h4>
                         <h5>(780)231-4506</h5>
                         <a href={whatsApp} target="_blank" rel="noopener noreferrer">Send a Message</a>
                     </article>
                 </div>
                 <form action="POST">
-                    <input type="text" name="name"/>
+                    <input type="text" name="name" placeholder='your full name' required/>
+                    <input type="email" name="email" placeholder='your email' required/>
+                    <textarea name="message" rows="7" placeholder='Your Message' required></textarea>
+                    <button type="submit" className='btn-primary'>Send Message</button>
                 </form>
             </div>
         </section>

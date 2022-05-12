@@ -1,11 +1,93 @@
+.contact__container {
+    width: 58%;
+    display: grid;
+    grid-template-columns: 30% 58%;
+    gap: 12%;
+
+    .contact__options {
+        display: flex;
+        flex-direction: column;
+        gap: 1.2rem;
+
+        .contact__option {
+            background: $lavender-drk-ol;
+            padding: 1.2rem;
+            border-radius: 1.2rem;
+            text-align: center;
+            border: 1px solid transparent;
+            transition: $hover-state;
+            width: 14rem;
+           
+            &:hover {
+                background: transparent;
+                border-color: $lavender-drk;
+                transform: rotate(10deg);
+                
+            }
+
+            .contact__icon {
+                font-size: 1.5rem;
+            }
+
+            h4 {
+                margin-bottom: -1.25rem;
+            }
+
+            a {
+                margin-top: 0.7rem;
+                display: inline-block;
+                font-size: 0.8rem;
+            }
+        }
+    }
+
+    // form styling
+
+    form {
+        display: flex;
+        flex-direction: column;
+        gap: 1.2rem;
+
+        input,
+        textarea {
+            width: 100%;
+            padding: 0.25rem 1.5rem 1.5rem 0.65rem;
+            border-radius: 0.5rem;
+            background: transparent;
+            border: 2px solid $lavender-drk;
+            resize: none;
+            color: $off-white;
+
+            &:focus {
+                outline: none;
+            }
+        }
+    }
+}
+ 
  /* ============= MEDIA QUERIES (MEDIUM) ============ */
 
  @media screen and (max-width: 1024px){
-    
+    .contact__container {
+        grid-template-columns: 1fr;
+        height: 110vh;
+
+        .contact__options {
+            justify-self: center;
+            margin-bottom: -4rem;
+
+            .contact__option {
+                width: 18rem;
+            }
+        }
+    }
 }
 
 /* ============= MEDIA QUERIES (SMALL) ============ */
 
 @media screen and (max-width: 600px){
-    
+    .contact__container {
+        width: $container-w-sm;
+        height: 180vh;
+    }
 }
