@@ -1,10 +1,19 @@
-import React from 'react'
+import React, {useEffect} from 'react'
+
+import AOS from 'aos';
+import "aos/dist/aos.css";
 
 import { HiOutlineBadgeCheck } from 'react-icons/hi'
 
 export default function Experience() {
-    
 
+    useEffect(() => {
+        AOS.init({
+          duration : 2000,
+          disable: false
+        });
+      }, []);
+    
     return (
         <section id="experience">
            <div className="section__header">
@@ -12,7 +21,7 @@ export default function Experience() {
                 <h2>My Experience...</h2>
            </div>
            <div className="container experience__container">
-               <div className="experience__frontend">
+               <div className="experience__frontend" data-aos="fade-up-right">
                     <h3>Frontend Development</h3>
                     <div className="experience__content">
                         <article className="experience__details">
@@ -59,7 +68,7 @@ export default function Experience() {
                         </article>
                     </div>
                </div>
-               <div className="experience__backend">
+               <div className="experience__backend" data-aos="fade-up-left">
                     <h3>Backend Development</h3>
                     <div className="experience__content">
                         <article className="experience__details">

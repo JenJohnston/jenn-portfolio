@@ -1,8 +1,17 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import portfolioData from '../data/portfolioData'
+
+import AOS from 'aos';
+import "aos/dist/aos.css";
 
 export default function Portfolio() {
     
+    useEffect(() => {
+        AOS.init({
+          duration : 2000,
+          disable: false
+        });
+      }, []);
 
     return (
         <section id="portfolio">
@@ -14,7 +23,7 @@ export default function Portfolio() {
                 {
                     portfolioData.map(({id, image, title, github, livedemo}) => {
                         return (
-                            <article className="portfolio__item" key={id}>
+                            <article className="portfolio__item" key={id} data-aos="zoom-out">
                                 <div className="portfolio__img">
                                     <img src={image} alt={title} />
                                 </div>

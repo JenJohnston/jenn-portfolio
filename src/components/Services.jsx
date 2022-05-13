@@ -1,10 +1,19 @@
-import React from 'react'
+import React, {useEffect} from 'react'
+
+import AOS from 'aos';
+import "aos/dist/aos.css";
 
 import { GiCheckMark } from 'react-icons/gi'
 
 export default function Services() {
-    
 
+    useEffect(() => {
+        AOS.init({
+          duration : 2000,
+          disable: false
+        });
+      }, []);
+    
     return (
         <section id="services">
             <div className="section__header">
@@ -15,7 +24,7 @@ export default function Services() {
 
                 {/* UX/UI SERVICE CARD */}
 
-                <article className="service">
+                <article className="service" data-aos="flip-up">
                     <div className="service__head">
                         <h3>UI/UX Design</h3>
                     </div>
@@ -45,7 +54,7 @@ export default function Services() {
 
                 {/* WEB DEV SERVICE CARD */}
 
-                <article className="service">
+                <article className="service" data-aos="flip-down">
                     <div className="service__head">
                         <h3>Web Development</h3>
                     </div>
@@ -79,7 +88,7 @@ export default function Services() {
 
                 {/* CONTENT CREATION CARD */}
 
-                <article className="service">
+                <article className="service" data-aos="flip-up">
                     <div className="service__head">
                         <h3>Content Creation</h3>
                     </div>

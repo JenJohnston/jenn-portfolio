@@ -1,9 +1,19 @@
-import React from 'react'
+import React, {useEffect} from 'react'
+import AOS from 'aos';
+import "aos/dist/aos.css";
 
 import { HiOutlineMail } from 'react-icons/hi'
 import { RiMessengerLine } from 'react-icons/ri'
 import { RiWhatsappLine } from 'react-icons/ri'
+
 export default function Contact() {
+
+    useEffect(() => {
+        AOS.init({
+          duration : 3000,
+          disable: false
+        });
+      }, []);
     
     const email = 'mailto:jen.johnston@protonmail.ch'
     const messenger = 'https://m.me/jennifer.johnston.96558061'
@@ -17,19 +27,19 @@ export default function Contact() {
             </div>
             <div className="container contact__container">
                 <div className="contact__options">
-                    <article className="contact__option">
+                    <article className="contact__option" data-aos="flip-right" >
                         <HiOutlineMail className='contact__icon'/>
                         <h4>Email</h4>
                         <h5>jen.johnston@protonmail.ch</h5>
                         <a href={email} target="_blank" rel="noopener noreferrer">Send a Message</a>
                     </article>
-                    <article className="contact__option">
+                    <article className="contact__option" data-aos="flip-left">
                         <RiMessengerLine className='contact__icon'/>
                         <h4>Messenger</h4>
                         <h5>Jennifer Johnston</h5>
                         <a href={messenger} target="_blank" rel="noopener noreferrer">Send a Message</a>
                     </article>
-                    <article className="contact__option">
+                    <article className="contact__option" data-aos="flip-right">
                         <RiWhatsappLine className='contact__icon'/>
                         <h4>WhatsApp</h4>
                         <h5>(780)231-4506</h5>

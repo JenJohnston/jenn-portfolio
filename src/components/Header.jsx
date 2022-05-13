@@ -1,11 +1,20 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import CTA from './CTA'
 import HeaderSocials from './HeaderSocials'
+
+import AOS from 'aos';
+import "aos/dist/aos.css";
 
 import ME from '../assets/images/me.png'
 
 export default function Header() {
     
+    useEffect(() => {
+        AOS.init({
+          duration : 3000,
+          disable: false
+        });
+      }, []);
 
     return (
         <header id="home">
@@ -16,7 +25,7 @@ export default function Header() {
                 <CTA />
                 <HeaderSocials />
 
-                <div className="me">
+                <div className="me" data-aos="zoom-in">
                     <img src={ME} alt="Headshot of Jennifer Johnston" />
                 </div>
 
