@@ -31,23 +31,23 @@ export default function Services() {
                     <ul className="service__list">
                         <li className="service__item">
                             < GiCheckMark className="service__icon"/>
-                            <p>Engineer reflection blockchain callback hell Twitter optimize bootcamp DAG progressive web app.</p>
+                            <p>Creating visually appealing, brand strengthening digital interfaces that attract and retain users</p>
                         </li>
                         <li className="service__item">
                             < GiCheckMark className="service__icon"/>
-                            <p>Engineer reflection blockchain callback hell Twitter optimize bootcamp DAG progressive web app.</p>
+                            <p>Low/High fidelity wireframes create a high-level concept of information architecture and interaction design</p>
                         </li>
                         <li className="service__item">
                             < GiCheckMark className="service__icon"/>
-                            <p>Engineer reflection blockchain callback hell Twitter optimize bootcamp DAG progressive web app.</p>
+                            <p>Interactive prototyping to visually represent page structure, layout and the overall feeling of the site</p>
                         </li>
                         <li className="service__item">
                             < GiCheckMark className="service__icon"/>
-                            <p>Engineer reflection blockchain callback hell Twitter optimize bootcamp DAG progressive web app.</p>
+                            <p>User research and testing to help define the goals and intentions of visitors to your website.</p>
                         </li>
                         <li className="service__item">
                             < GiCheckMark className="service__icon"/>
-                            <p>Engineer reflection blockchain callback hell Twitter optimize bootcamp DAG progressive web app.</p>
+                            <p>An inclusive design process that ensures you are getting a website that fills your exact needs</p>
                         </li>
                     </ul>
                 </article>
@@ -61,27 +61,27 @@ export default function Services() {
                     <ul className="service__list">
                         <li className="service__item">
                             < GiCheckMark className="service__icon"/>
-                            <p>Engineer reflection blockchain callback hell Twitter optimize bootcamp DAG progressive web app.</p>
+                            <p>Fast loading, fully functional websites built with modern frameworks like React, Gatsby or Vue.</p>
                         </li>
                         <li className="service__item">
                             < GiCheckMark className="service__icon"/>
-                            <p>Engineer reflection blockchain callback hell Twitter optimize bootcamp DAG progressive web app.</p>
+                            <p>Integration with modern content management services like Sanity.io make updating your site easy</p>
                         </li>
                         <li className="service__item">
                             < GiCheckMark className="service__icon"/>
-                            <p>Engineer reflection blockchain callback hell Twitter optimize bootcamp DAG progressive web app.</p>
+                            <p>Integration with backend API's written in Django or Laravel for fullstack development</p>
                         </li>
                         <li className="service__item">
                             < GiCheckMark className="service__icon"/>
-                            <p>Engineer reflection blockchain callback hell Twitter optimize bootcamp DAG progressive web app.</p>
+                            <p>Building and integrating databases using MySQL, MongoDB or Postgres for your project</p>
                         </li>
                         <li className="service__item">
                             < GiCheckMark className="service__icon"/>
-                            <p>Engineer reflection blockchain callback hell Twitter optimize bootcamp DAG progressive web app.</p>
+                            <p>Implement WebGL libraries like three.js or pixi to add stunning 3D effects to your website</p>
                         </li>
                         <li className="service__item">
                             < GiCheckMark className="service__icon"/>
-                            <p>Engineer reflection blockchain callback hell Twitter optimize bootcamp DAG progressive web app.</p>
+                            <p>24/7 customer support and client care services after your project is deployed to the web</p>
                         </li>
                     </ul>
                 </article>
@@ -95,23 +95,23 @@ export default function Services() {
                     <ul className="service__list">
                         <li className="service__item">
                             < GiCheckMark className="service__icon"/>
-                            <p>Engineer reflection blockchain callback hell Twitter optimize bootcamp DAG progressive web app.</p>
+                            <p>Industry standard white hat SEO practices and SEO content optimization for your website or application</p>
                         </li>
                         <li className="service__item">
                             < GiCheckMark className="service__icon"/>
-                            <p>Engineer reflection blockchain callback hell Twitter optimize bootcamp DAG progressive web app.</p>
+                            <p>Keyword research to find words that your audience searches based on intent, volume and competition</p>
                         </li>
                         <li className="service__item">
                             < GiCheckMark className="service__icon"/>
-                            <p>Engineer reflection blockchain callback hell Twitter optimize bootcamp DAG progressive web app.</p>
+                            <p>User content optimization matches user search intent with information they need about your business</p>
                         </li>
                         <li className="service__item">
                             < GiCheckMark className="service__icon"/>
-                            <p>Engineer reflection blockchain callback hell Twitter optimize bootcamp DAG progressive web app.</p>
+                            <p>Social Media and Email templating to help promote your business and expand your reach on the web</p>
                         </li>
                         <li className="service__item">
                             < GiCheckMark className="service__icon"/>
-                            <p>Engineer reflection blockchain callback hell Twitter optimize bootcamp DAG progressive web app.</p>
+                            <p>Graphic and image optimization to retain users and ensure that your website loads quickly and smoothly.</p>
                         </li>
                     </ul>
                 </article>

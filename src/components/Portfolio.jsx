@@ -9,7 +9,8 @@ export default function Portfolio() {
     useEffect(() => {
         AOS.init({
           duration : 2000,
-          disable: false
+          disable: false,
+          delay: 200,
         });
       }, []);
 

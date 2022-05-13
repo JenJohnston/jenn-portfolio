@@ -12,7 +12,8 @@ export default function Header() {
     useEffect(() => {
         AOS.init({
           duration : 3000,
-          disable: false
+          disable: false,
+          delay: 200,
         });
       }, []);
 

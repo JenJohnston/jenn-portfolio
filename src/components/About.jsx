@@ -49,7 +49,8 @@ export default function About() {
                     </div>
 
                     <p className="about__text">
-                    Little Bobby Tables kernel senior-engineer strongly typing Ruby controller. Middleware raspberry pi free as speech REST Vue LLVM lazy package manager. Raspberry pi cross-post progressive web app fullstack ELF modern bundle transpile kernel fault tolerant browser. Singleton compression optimize bootcamp hashtable data store architecture module.
+                    We live in an exciting time for web development. With CSS Grid, WebGL and modern JavaScript frameworks like React and Vue
+                    the possibilities for bringing your project to the web are endless. Work with me and together we can build a website that is as unique and interesting as you and your business are.   
                     </p>
 
                     <a href="#contact" className='btn btn-primary'>Let's Talk</a>
