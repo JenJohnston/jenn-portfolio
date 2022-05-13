@@ -70,15 +70,19 @@
  @media screen and (max-width: 1024px){
     .contact__container {
         grid-template-columns: 1fr;
-        height: 110vh;
+        
 
         .contact__options {
             justify-self: center;
-            margin-bottom: -4rem;
+            
 
             .contact__option {
                 width: 18rem;
             }
+        }
+
+        form {
+            margin-bottom: 8rem;
         }
     }
 }
@@ -88,6 +92,5 @@
 @media screen and (max-width: 600px){
     .contact__container {
         width: $container-w-sm;
-        height: 180vh;
     }
 }
