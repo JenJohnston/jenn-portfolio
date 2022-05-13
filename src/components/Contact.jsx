@@ -10,7 +10,7 @@ export default function Contact() {
 
     useEffect(() => {
         AOS.init({
-          duration : 3000,
+          duration : 2000,
           disable: false
         });
       }, []);
