@@ -1,5 +1,5 @@
 import img1 from '../assets/images/portfolio1.jpg'
-import img2 from '../assets/images/portfolio2.jpg'
+import img2 from '../assets/images/amazona-prev.jpg'
 import img3 from '../assets/images/portfolio3.jpg'
 import img4 from '../assets/images/portfolio4.jpg'
 import img5 from '../assets/images/portfolio5.png'
