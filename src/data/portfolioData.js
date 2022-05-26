@@ -16,23 +16,23 @@ const portfolioData = [
     {
         id:2,
         image: img2,
-        title: "Threejs Journey Magical Portal",
-        github: "https://github.com/JenJohnston/magic-portal",
+        title: "Amazona MERN E-Commerce App",
+        github: "https://github.com/JenJohnston/mern-ecommerce",
         livedemo: "https://magic-portal-demo.netlify.app"
     },
     {
         id:3,
         image: img3,
-        title: "Threejs Journey Magical Portal",
-        github: "https://github.com/JenJohnston/magic-portal",
-        livedemo: "https://magic-portal-demo.netlify.app"
+        title: "Threejs 3D Particles Demo",
+        github: "https://github.com/JenJohnston/3d-particles-demo",
+        livedemo: "https://3d-particles-demo.netlify.app/"
     },
     {
         id:4,
         image: img4,
-        title: "Threejs Journey Magical Portal",
-        github: "https://github.com/JenJohnston/magic-portal",
-        livedemo: "https://magic-portal-demo.netlify.app"
+        title: "Threejs Journey Galaxy Generator",
+        github: "https://github.com/JenJohnston/galaxy-genertator",
+        livedemo: "https://3d-galaxy-demo.netlify.app/"
     },
     {
         id:5,
