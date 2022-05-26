@@ -18,7 +18,7 @@ const portfolioData = [
         image: img2,
         title: "Amazona MERN E-Commerce App",
         github: "https://github.com/JenJohnston/mern-ecommerce",
-        livedemo: "https://magic-portal-demo.netlify.app"
+        livedemo: "https://amazona-mern-demo.herokuapp.com/"
     },
     {
         id:3,
