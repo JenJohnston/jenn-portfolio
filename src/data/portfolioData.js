@@ -1,7 +1,7 @@
-import img1 from '../assets/images/portfolio1.jpg'
+import img1 from '../assets/images/magic-portal.jpg'
 import img2 from '../assets/images/amazona-prev.jpg'
-import img3 from '../assets/images/portfolio3.jpg'
-import img4 from '../assets/images/portfolio4.jpg'
+import img3 from '../assets/images/3d-demo.jpg'
+import img4 from '../assets/images/galaxy.jpg'
 import img5 from '../assets/images/portfolio5.png'
 import img6 from '../assets/images/portfolio6.jpg'
 
