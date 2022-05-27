@@ -34,20 +34,20 @@ const portfolioData = [
         github: "https://github.com/JenJohnston/galaxy-genertator",
         livedemo: "https://3d-galaxy-demo.netlify.app/"
     },
-    {
-        id:5,
-        image: img5,
-        title: "Threejs Journey Magical Portal",
-        github: "https://github.com/JenJohnston/magic-portal",
-        livedemo: "https://magic-portal-demo.netlify.app"
-    },
-    {
-        id:6,
-        image: img6,
-        title: "Threejs Journey Magical Portal",
-        github: "https://github.com/JenJohnston/magic-portal",
-        livedemo: "https://magic-portal-demo.netlify.app"
-    }
+    // {
+    //     id:5,
+    //     image: img5,
+    //     title: "Threejs Journey Magical Portal",
+    //     github: "https://github.com/JenJohnston/magic-portal",
+    //     livedemo: "https://magic-portal-demo.netlify.app"
+    // },
+    // {
+    //     id:6,
+    //     image: img6,
+    //     title: "Threejs Journey Magical Portal",
+    //     github: "https://github.com/JenJohnston/magic-portal",
+    //     livedemo: "https://magic-portal-demo.netlify.app"
+    // }
 ]
 
 export default portfolioData
