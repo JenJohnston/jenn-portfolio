@@ -5,7 +5,7 @@ import HeaderSocials from './HeaderSocials'
 import AOS from 'aos';
 import "aos/dist/aos.css";
 
-import ME from '../assets/images/me.png'
+import ME from '../assets/images/me-header.png'
 
 export default function Header() {
     
