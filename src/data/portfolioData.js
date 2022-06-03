@@ -2,7 +2,7 @@ import img1 from '../assets/images/magic-portal.jpg'
 import img2 from '../assets/images/amazona-prev.jpg'
 import img3 from '../assets/images/3d-demo.jpg'
 import img4 from '../assets/images/galaxy.jpg'
-// import img5 from '../assets/images/portfolio5.png'
+import img5 from '../assets/images/techLyfe.jpg'
 // import img6 from '../assets/images/portfolio6.jpg'
 
 const portfolioData = [
@@ -34,13 +34,13 @@ const portfolioData = [
         github: "https://github.com/JenJohnston/galaxy-genertator",
         livedemo: "https://3d-galaxy-demo.netlify.app/"
     },
-    // {
-    //     id:5,
-    //     image: img5,
-    //     title: "Threejs Journey Magical Portal",
-    //     github: "https://github.com/JenJohnston/magic-portal",
-    //     livedemo: "https://magic-portal-demo.netlify.app"
-    // },
+    {
+        id:5,
+        image: img5,
+        title: "TechLyfe - blog Gatsby and Sanity",
+        github: "https://github.com/JenJohnston/techLyfe",
+        livedemo: "https://tech-lyfe.vercel.app/"
+    },
     // {
     //     id:6,
     //     image: img6,
